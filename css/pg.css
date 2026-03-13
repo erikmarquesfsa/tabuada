@@ -88,3 +88,11 @@ h2{
     text-align: center;
 }
 
+.multiplication-operations .row:last-child{
+    border-bottom: 1px solid #ccc;
+}
+
+#multiplication-operations .result{
+    margin-left: 0.4rem;
+}
+

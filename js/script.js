@@ -16,7 +16,7 @@ const createTable = (number,multiplicatorNumber)=>{
         </div>`;
 
         const parser = new DOMParser();
-        const htmlTemplate = parser.parseFromString(template,text/html);
+        const htmlTemplate = parser.parseFromString(template,"text/html");
         const row = htmlTemplate.querySelector(".row");
 
         multiplicationTable.appendChild(row);
