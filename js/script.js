@@ -27,6 +27,7 @@ const createTable = (number,multiplicatorNumber)=>{
 
 //Eventos
 multiplicationForm.addEventListener("submit",(e) => {
+    e.preventDefault();
 
     const multiplicationNumber = numberInput.value;
     const multiplicatorNumber = +multiplicationInput.value;
